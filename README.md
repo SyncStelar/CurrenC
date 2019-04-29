@@ -9,4 +9,4 @@ Cha Ching Register Sound - Muska666 (www.soundbible.com)
 
 Pterodactyl Screech - Mike Koenig (www.soundbible.com)
 
-Deliberate Thought - Kevin MacLeod (incompetech.com)
+Deliberate Thought - Kevin MacLeod (www.incompetech.com)
