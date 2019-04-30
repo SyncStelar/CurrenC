@@ -20,7 +20,7 @@ public class CoinController : MonoBehaviour
     public GameObject oneDollar;
     public GameObject fiftyCents;
 
-    [System.NonSerialized] public List<GameObject> allCoins = new List<GameObject>();
+    public List<GameObject> allCoins = new List<GameObject>();
 
     private BoxCollider[] colliders;
 

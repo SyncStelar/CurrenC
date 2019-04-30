@@ -194,6 +194,7 @@ public class PlayerController : MonoBehaviour {
             int staticNumber = Random.Range(1, cc.allCoins.Count);
             GameObject walletThief = Instantiate(lc.walletThief, cc.allCoins[Random.Range(1, cc.allCoins.Count)].transform);
             walletThief.GetComponent<WalletThief>().moneyTargeted = staticNumber;
+            canPressButtons = false;
             mcm.StopPlayerMovement();
         }
         runSpawnWalletSnatcherOnce = true;

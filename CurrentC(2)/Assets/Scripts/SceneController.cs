@@ -13,6 +13,7 @@ public class SceneController : MonoBehaviour {
     }
 
     public void StartGame() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Level 1");
     }
 
@@ -21,14 +22,17 @@ public class SceneController : MonoBehaviour {
     }
 
     public void GameOver() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Game Over");
     }
 
     public void YouWin() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("You Win");
     }
 
     public void MainMenu() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Main Menu");
     }
 

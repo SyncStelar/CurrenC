@@ -9,8 +9,9 @@ public class BackgroundMusicController : MonoBehaviour
     private void Awake() {
         if (bgmc != null) {
             Destroy(gameObject);
+        } else {
+            bgmc = this;
+            DontDestroyOnLoad(gameObject);
         }
-        bgmc = this;
-        DontDestroyOnLoad(gameObject);
     }
 }
